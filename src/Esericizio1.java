@@ -21,13 +21,15 @@ public class Esericizio1 {
 
         public static String[] insertInArray(String[] array, String a) {
 
-            String[] newArray = new String[array.length + 1];
-
-            for (int i = 0; i < newArray.length; i++) {
-                newArray[i] = array[i];
-            }
+            String[] newArray = new String[6];
+            newArray[0] = array[0];
+            newArray[1] = array[1];
             newArray[2] = a;
-            return newArray; 
+            newArray[3] = array[2];
+            newArray[4] = array[3];
+            newArray[5] = array[4];
+
+            return newArray;
         }
 }
 
