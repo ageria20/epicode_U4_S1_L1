@@ -9,7 +9,8 @@ public class Esercizio2 {
         String nome = scanner.nextLine();
         String cognome = scanner.nextLine();
         String nikName = scanner.nextLine();
-        System.out.println("Ciao " + nome + " " + cognome + ", " + "Nikname: " + nikName);
+        System.out.println("Ciao " + nome + " " + cognome + ", " + "Nickname: " + nikName);
+        System.out.println("Nickname: " + nikName + ", Ciao " + cognome + " " + nome) ;
         scanner.close();
     }
 
