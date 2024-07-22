@@ -27,7 +27,7 @@ public class Esericizio1 {
                 newArray[i] = array[i];
             }
             newArray[2] = a;
-            return newArray;
+            return newArray; 
         }
 }
 
